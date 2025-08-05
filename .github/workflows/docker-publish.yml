@@ -27,4 +27,4 @@ jobs:
         context: .
         file: ./Dockerfile
         push: true
-        tags: yourdockerhubusername/ppdb-api-gateway:latest
+        tags: ${{ secrets.DOCKER_USERNAME }}/ppdb-api-gateway:latest
